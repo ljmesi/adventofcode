@@ -19,11 +19,12 @@ YEAR = 2022
 DAY = 01_day
 CURRENT_DAY = $(YEAR)/$(DAY)
 SCRIPT = calories.py
+TEST_INPUT = aoc_input.txt
 
 run:
 	$(CONDA_ACTIVATE)
 	cd $(CURRENT_DAY)
-	./$(SCRIPT)
+	./$(SCRIPT) --file $(TEST_INPUT)
 
 test:
 	$(CONDA_ACTIVATE)
