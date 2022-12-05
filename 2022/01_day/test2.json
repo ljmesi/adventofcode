@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Elf1",
+        "calories": [
+            0
+        ]
+    },
+    {
+        "name": "Elf2",
+        "calories": [
+            0
+        ]
+    },
+    {
+        "name": "Elf3",
+        "calories": [
+            1000,
+            2000,
+            3000
+        ]
+    }
+]
