@@ -2,7 +2,7 @@
 """Find which elf carries the most calories"""
 __author__ = "LJM"
 __date__ = "2022-12-03"
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
 
 import argparse
